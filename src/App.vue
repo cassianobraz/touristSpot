@@ -1,15 +1,8 @@
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+  <div class="mx-auto mt-24 max-w-7xl min-h-screen px-2">
+    <router-view />
+    <Footer />
   </div>
 </template>
 
-<script setup>
-
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<script setup></script>
